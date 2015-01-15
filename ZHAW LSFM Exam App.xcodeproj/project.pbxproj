@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A9EB5D51A38543C00C7A7AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EB5D41A38543C00C7A7AF /* main.m */; };
+		3A9EB5D81A38543C00C7A7AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EB5D71A38543C00C7A7AF /* AppDelegate.m */; };
+		3A9EB5DB1A38543C00C7A7AF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EB5DA1A38543C00C7A7AF /* LoginViewController.m */; };
+		3A9EB5DE1A38543C00C7A7AF /* DokumentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EB5DD1A38543C00C7A7AF /* DokumentsViewController.m */; };
+		3A9EB5E11A38543C00C7A7AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9EB5DF1A38543C00C7A7AF /* Main.storyboard */; };
+		3A9EB5E31A38543C00C7A7AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9EB5E21A38543C00C7A7AF /* Images.xcassets */; };
+		3A9EB5E61A38543C00C7A7AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A9EB5E41A38543C00C7A7AF /* LaunchScreen.xib */; };
+		3A9EB5F21A38543C00C7A7AF /* ZHAW_LSFM_Exam_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EB5F11A38543C00C7A7AF /* ZHAW_LSFM_Exam_AppTests.m */; };
+		3A9EB5FC1A38898400C7A7AF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9EB5FB1A38898400C7A7AF /* AudioToolbox.framework */; };
+		3A9EB6011A389BEB00C7A7AF /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3A9EB6001A389BEB00C7A7AF /* beep.wav */; };
+		3A9EB6021A389BEB00C7A7AF /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3A9EB6001A389BEB00C7A7AF /* beep.wav */; };
+		3A9EB6061A39104900C7A7AF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9EB6051A39104900C7A7AF /* MediaPlayer.framework */; };
+		3A9EB60B1A39185B00C7A7AF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EB60A1A39185B00C7A7AF /* Reachability.m */; };
+		3A9EB60C1A39185B00C7A7AF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EB60A1A39185B00C7A7AF /* Reachability.m */; };
+		3A9EB6171A3A43BE00C7A7AF /* NetAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EB6121A3A43BE00C7A7AF /* NetAssociation.m */; };
+		3A9EB6181A3A43BE00C7A7AF /* NetAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EB6121A3A43BE00C7A7AF /* NetAssociation.m */; };
+		3A9EB6191A3A43BE00C7A7AF /* NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EB6141A3A43BE00C7A7AF /* NetworkClock.m */; };
+		3A9EB61A1A3A43BE00C7A7AF /* NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EB6141A3A43BE00C7A7AF /* NetworkClock.m */; };
+		3A9EB61B1A3A43BE00C7A7AF /* NSDate+NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EB6161A3A43BE00C7A7AF /* NSDate+NetworkClock.m */; };
+		3A9EB61C1A3A43BE00C7A7AF /* NSDate+NetworkClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EB6161A3A43BE00C7A7AF /* NSDate+NetworkClock.m */; };
+		3A9EB6201A3A441A00C7A7AF /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EB61F1A3A441A00C7A7AF /* GCDAsyncUdpSocket.m */; };
+		3A9EB6211A3A441A00C7A7AF /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EB61F1A3A441A00C7A7AF /* GCDAsyncUdpSocket.m */; };
+		3A9EB6381A3B074400C7A7AF /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EB6361A3B074400C7A7AF /* ReaderViewController.m */; };
+		3A9EB6391A3B074400C7A7AF /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EB6361A3B074400C7A7AF /* ReaderViewController.m */; };
+		3A9EB63A1A3B074400C7A7AF /* ReaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A9EB6371A3B074400C7A7AF /* ReaderViewController.xib */; };
+		3A9EB63B1A3B074400C7A7AF /* ReaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A9EB6371A3B074400C7A7AF /* ReaderViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A9EB5EC1A38543C00C7A7AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A9EB5C71A38543C00C7A7AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A9EB5CE1A38543C00C7A7AF;
+			remoteInfo = "ZHAW LSFM Exam App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A9EB5CF1A38543C00C7A7AF /* ZHAW LSFM Exam App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZHAW LSFM Exam App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A9EB5D31A38543C00C7A7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A9EB5D41A38543C00C7A7AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A9EB5D61A38543C00C7A7AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A9EB5D71A38543C00C7A7AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A9EB5D91A38543C00C7A7AF /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		3A9EB5DA1A38543C00C7A7AF /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		3A9EB5DC1A38543C00C7A7AF /* DokumentsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DokumentsViewController.h; sourceTree = "<group>"; };
+		3A9EB5DD1A38543C00C7A7AF /* DokumentsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DokumentsViewController.m; sourceTree = "<group>"; };
+		3A9EB5E01A38543C00C7A7AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A9EB5E21A38543C00C7A7AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3A9EB5E51A38543C00C7A7AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3A9EB5EB1A38543C00C7A7AF /* ZHAW LSFM Exam AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZHAW LSFM Exam AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A9EB5F01A38543C00C7A7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A9EB5F11A38543C00C7A7AF /* ZHAW_LSFM_Exam_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHAW_LSFM_Exam_AppTests.m; sourceTree = "<group>"; };
+		3A9EB5FB1A38898400C7A7AF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3A9EB6001A389BEB00C7A7AF /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep.wav; sourceTree = "<group>"; };
+		3A9EB6051A39104900C7A7AF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3A9EB6091A39185B00C7A7AF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		3A9EB60A1A39185B00C7A7AF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		3A9EB60F1A3A43BE00C7A7AF /* ios-ntp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ios-ntp.h"; sourceTree = "<group>"; };
+		3A9EB6101A3A43BE00C7A7AF /* ios-ntp.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ios-ntp.pch"; sourceTree = "<group>"; };
+		3A9EB6111A3A43BE00C7A7AF /* NetAssociation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetAssociation.h; sourceTree = "<group>"; };
+		3A9EB6121A3A43BE00C7A7AF /* NetAssociation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetAssociation.m; sourceTree = "<group>"; };
+		3A9EB6131A3A43BE00C7A7AF /* NetworkClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClock.h; sourceTree = "<group>"; };
+		3A9EB6141A3A43BE00C7A7AF /* NetworkClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClock.m; sourceTree = "<group>"; };
+		3A9EB6151A3A43BE00C7A7AF /* NSDate+NetworkClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NetworkClock.h"; sourceTree = "<group>"; };
+		3A9EB6161A3A43BE00C7A7AF /* NSDate+NetworkClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NetworkClock.m"; sourceTree = "<group>"; };
+		3A9EB61E1A3A441A00C7A7AF /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		3A9EB61F1A3A441A00C7A7AF /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		3A9EB6351A3B074400C7A7AF /* ReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderViewController.h; sourceTree = "<group>"; };
+		3A9EB6361A3B074400C7A7AF /* ReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderViewController.m; sourceTree = "<group>"; };
+		3A9EB6371A3B074400C7A7AF /* ReaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReaderViewController.xib; sourceTree = "<group>"; };
+		3A9EB63C1A3B8B4000C7A7AF /* ZHAW_LSFM_Exam_App_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHAW_LSFM_Exam_App_PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A9EB5CC1A38543C00C7A7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9EB6061A39104900C7A7AF /* MediaPlayer.framework in Frameworks */,
+				3A9EB5FC1A38898400C7A7AF /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A9EB5E81A38543C00C7A7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A9EB5C61A38543C00C7A7AF = {
+			isa = PBXGroup;
+			children = (
+				3A9EB5D11A38543C00C7A7AF /* ZHAW LSFM Exam App */,
+				3A9EB5EE1A38543C00C7A7AF /* ZHAW LSFM Exam AppTests */,
+				3A9EB5D01A38543C00C7A7AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A9EB5D01A38543C00C7A7AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A9EB5CF1A38543C00C7A7AF /* ZHAW LSFM Exam App.app */,
+				3A9EB5EB1A38543C00C7A7AF /* ZHAW LSFM Exam AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A9EB5D11A38543C00C7A7AF /* ZHAW LSFM Exam App */ = {
+			isa = PBXGroup;
+			children = (
+				3A9EB5D61A38543C00C7A7AF /* AppDelegate.h */,
+				3A9EB5D71A38543C00C7A7AF /* AppDelegate.m */,
+				3A9EB5D91A38543C00C7A7AF /* LoginViewController.h */,
+				3A9EB5DA1A38543C00C7A7AF /* LoginViewController.m */,
+				3A9EB5DC1A38543C00C7A7AF /* DokumentsViewController.h */,
+				3A9EB5DD1A38543C00C7A7AF /* DokumentsViewController.m */,
+				3A9EB6351A3B074400C7A7AF /* ReaderViewController.h */,
+				3A9EB6361A3B074400C7A7AF /* ReaderViewController.m */,
+				3A9EB6371A3B074400C7A7AF /* ReaderViewController.xib */,
+				3A9EB5DF1A38543C00C7A7AF /* Main.storyboard */,
+				3A9EB5E41A38543C00C7A7AF /* LaunchScreen.xib */,
+				3A9EB5E21A38543C00C7A7AF /* Images.xcassets */,
+				3A9EB6071A39178100C7A7AF /* Libs */,
+				3A9EB5D21A38543C00C7A7AF /* Supporting Files */,
+				3A9EB5FD1A388F7600C7A7AF /* Ressources */,
+			);
+			path = "ZHAW LSFM Exam App";
+			sourceTree = "<group>";
+		};
+		3A9EB5D21A38543C00C7A7AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A9EB5D31A38543C00C7A7AF /* Info.plist */,
+				3A9EB5D41A38543C00C7A7AF /* main.m */,
+				3A9EB63C1A3B8B4000C7A7AF /* ZHAW_LSFM_Exam_App_PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A9EB5EE1A38543C00C7A7AF /* ZHAW LSFM Exam AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A9EB5F11A38543C00C7A7AF /* ZHAW_LSFM_Exam_AppTests.m */,
+				3A9EB5EF1A38543C00C7A7AF /* Supporting Files */,
+			);
+			path = "ZHAW LSFM Exam AppTests";
+			sourceTree = "<group>";
+		};
+		3A9EB5EF1A38543C00C7A7AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A9EB5F01A38543C00C7A7AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A9EB5FD1A388F7600C7A7AF /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				3A9EB60D1A3A431700C7A7AF /* framework */,
+				3A9EB5FF1A388FF800C7A7AF /* images */,
+				3A9EB5FE1A388FE100C7A7AF /* sounds */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		3A9EB5FE1A388FE100C7A7AF /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3A9EB6001A389BEB00C7A7AF /* beep.wav */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
+		3A9EB5FF1A388FF800C7A7AF /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		3A9EB6071A39178100C7A7AF /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				3A9EB61D1A3A441A00C7A7AF /* network-udp */,
+				3A9EB60E1A3A436B00C7A7AF /* ntp */,
+				3A9EB6081A3917A000C7A7AF /* Reachability */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		3A9EB6081A3917A000C7A7AF /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				3A9EB6091A39185B00C7A7AF /* Reachability.h */,
+				3A9EB60A1A39185B00C7A7AF /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		3A9EB60D1A3A431700C7A7AF /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				3A9EB6051A39104900C7A7AF /* MediaPlayer.framework */,
+				3A9EB5FB1A38898400C7A7AF /* AudioToolbox.framework */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+		3A9EB60E1A3A436B00C7A7AF /* ntp */ = {
+			isa = PBXGroup;
+			children = (
+				3A9EB60F1A3A43BE00C7A7AF /* ios-ntp.h */,
+				3A9EB6101A3A43BE00C7A7AF /* ios-ntp.pch */,
+				3A9EB6111A3A43BE00C7A7AF /* NetAssociation.h */,
+				3A9EB6121A3A43BE00C7A7AF /* NetAssociation.m */,
+				3A9EB6131A3A43BE00C7A7AF /* NetworkClock.h */,
+				3A9EB6141A3A43BE00C7A7AF /* NetworkClock.m */,
+				3A9EB6151A3A43BE00C7A7AF /* NSDate+NetworkClock.h */,
+				3A9EB6161A3A43BE00C7A7AF /* NSDate+NetworkClock.m */,
+			);
+			name = ntp;
+			sourceTree = "<group>";
+		};
+		3A9EB61D1A3A441A00C7A7AF /* network-udp */ = {
+			isa = PBXGroup;
+			children = (
+				3A9EB61E1A3A441A00C7A7AF /* GCDAsyncUdpSocket.h */,
+				3A9EB61F1A3A441A00C7A7AF /* GCDAsyncUdpSocket.m */,
+			);
+			path = "network-udp";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A9EB5CE1A38543C00C7A7AF /* ZHAW LSFM Exam App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A9EB5F51A38543C00C7A7AF /* Build configuration list for PBXNativeTarget "ZHAW LSFM Exam App" */;
+			buildPhases = (
+				3A9EB5CB1A38543C00C7A7AF /* Sources */,
+				3A9EB5CC1A38543C00C7A7AF /* Frameworks */,
+				3A9EB5CD1A38543C00C7A7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZHAW LSFM Exam App";
+			productName = "ZHAW LSFM Exam App";
+			productReference = 3A9EB5CF1A38543C00C7A7AF /* ZHAW LSFM Exam App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A9EB5EA1A38543C00C7A7AF /* ZHAW LSFM Exam AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A9EB5F81A38543C00C7A7AF /* Build configuration list for PBXNativeTarget "ZHAW LSFM Exam AppTests" */;
+			buildPhases = (
+				3A9EB5E71A38543C00C7A7AF /* Sources */,
+				3A9EB5E81A38543C00C7A7AF /* Frameworks */,
+				3A9EB5E91A38543C00C7A7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A9EB5ED1A38543C00C7A7AF /* PBXTargetDependency */,
+			);
+			name = "ZHAW LSFM Exam AppTests";
+			productName = "ZHAW LSFM Exam AppTests";
+			productReference = 3A9EB5EB1A38543C00C7A7AF /* ZHAW LSFM Exam AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A9EB5C71A38543C00C7A7AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Adrian Busin";
+				TargetAttributes = {
+					3A9EB5CE1A38543C00C7A7AF = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = TA2AJAJUME;
+					};
+					3A9EB5EA1A38543C00C7A7AF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 3A9EB5CE1A38543C00C7A7AF;
+					};
+				};
+			};
+			buildConfigurationList = 3A9EB5CA1A38543C00C7A7AF /* Build configuration list for PBXProject "ZHAW LSFM Exam App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A9EB5C61A38543C00C7A7AF;
+			productRefGroup = 3A9EB5D01A38543C00C7A7AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A9EB5CE1A38543C00C7A7AF /* ZHAW LSFM Exam App */,
+				3A9EB5EA1A38543C00C7A7AF /* ZHAW LSFM Exam AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A9EB5CD1A38543C00C7A7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9EB5E11A38543C00C7A7AF /* Main.storyboard in Resources */,
+				3A9EB6011A389BEB00C7A7AF /* beep.wav in Resources */,
+				3A9EB5E61A38543C00C7A7AF /* LaunchScreen.xib in Resources */,
+				3A9EB5E31A38543C00C7A7AF /* Images.xcassets in Resources */,
+				3A9EB63A1A3B074400C7A7AF /* ReaderViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A9EB5E91A38543C00C7A7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9EB6021A389BEB00C7A7AF /* beep.wav in Resources */,
+				3A9EB63B1A3B074400C7A7AF /* ReaderViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A9EB5CB1A38543C00C7A7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9EB61B1A3A43BE00C7A7AF /* NSDate+NetworkClock.m in Sources */,
+				3A9EB6201A3A441A00C7A7AF /* GCDAsyncUdpSocket.m in Sources */,
+				3A9EB6191A3A43BE00C7A7AF /* NetworkClock.m in Sources */,
+				3A9EB5DE1A38543C00C7A7AF /* DokumentsViewController.m in Sources */,
+				3A9EB5D81A38543C00C7A7AF /* AppDelegate.m in Sources */,
+				3A9EB5DB1A38543C00C7A7AF /* LoginViewController.m in Sources */,
+				3A9EB5D51A38543C00C7A7AF /* main.m in Sources */,
+				3A9EB60B1A39185B00C7A7AF /* Reachability.m in Sources */,
+				3A9EB6171A3A43BE00C7A7AF /* NetAssociation.m in Sources */,
+				3A9EB6381A3B074400C7A7AF /* ReaderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A9EB5E71A38543C00C7A7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9EB60C1A39185B00C7A7AF /* Reachability.m in Sources */,
+				3A9EB5F21A38543C00C7A7AF /* ZHAW_LSFM_Exam_AppTests.m in Sources */,
+				3A9EB61C1A3A43BE00C7A7AF /* NSDate+NetworkClock.m in Sources */,
+				3A9EB6181A3A43BE00C7A7AF /* NetAssociation.m in Sources */,
+				3A9EB6211A3A441A00C7A7AF /* GCDAsyncUdpSocket.m in Sources */,
+				3A9EB6391A3B074400C7A7AF /* ReaderViewController.m in Sources */,
+				3A9EB61A1A3A43BE00C7A7AF /* NetworkClock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A9EB5ED1A38543C00C7A7AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A9EB5CE1A38543C00C7A7AF /* ZHAW LSFM Exam App */;
+			targetProxy = 3A9EB5EC1A38543C00C7A7AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A9EB5DF1A38543C00C7A7AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A9EB5E01A38543C00C7A7AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A9EB5E41A38543C00C7A7AF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A9EB5E51A38543C00C7A7AF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A9EB5F31A38543C00C7A7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A9EB5F41A38543C00C7A7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A9EB5F61A38543C00C7A7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZHAW LSFM Exam App/ZHAW_LSFM_Exam_App_PrefixHeader.pch";
+				INFOPLIST_FILE = "ZHAW LSFM Exam App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A9EB5F71A38543C00C7A7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZHAW LSFM Exam App/ZHAW_LSFM_Exam_App_PrefixHeader.pch";
+				INFOPLIST_FILE = "ZHAW LSFM Exam App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3A9EB5F91A38543C00C7A7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZHAW LSFM Exam AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHAW LSFM Exam App.app/ZHAW LSFM Exam App";
+			};
+			name = Debug;
+		};
+		3A9EB5FA1A38543C00C7A7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZHAW LSFM Exam AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHAW LSFM Exam App.app/ZHAW LSFM Exam App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A9EB5CA1A38543C00C7A7AF /* Build configuration list for PBXProject "ZHAW LSFM Exam App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A9EB5F31A38543C00C7A7AF /* Debug */,
+				3A9EB5F41A38543C00C7A7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A9EB5F51A38543C00C7A7AF /* Build configuration list for PBXNativeTarget "ZHAW LSFM Exam App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A9EB5F61A38543C00C7A7AF /* Debug */,
+				3A9EB5F71A38543C00C7A7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A9EB5F81A38543C00C7A7AF /* Build configuration list for PBXNativeTarget "ZHAW LSFM Exam AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A9EB5F91A38543C00C7A7AF /* Debug */,
+				3A9EB5FA1A38543C00C7A7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A9EB5C71A38543C00C7A7AF /* Project object */;
+}
