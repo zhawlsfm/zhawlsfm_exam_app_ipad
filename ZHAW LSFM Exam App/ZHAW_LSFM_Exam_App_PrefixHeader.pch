@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  ZHAW LSFM Exam App
+//
+//  Created by Adrian on 12.12.14.
+//  Copyright (c) 2014 Adrian Busin. All rights reserved.
+//
+
+// #ifndef ZHAW_LSFM_Exam_App_PrefixHeader_pch
+// #define ZHAW_LSFM_Exam_App_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// #endif
+
+
+#define PDF_FOLDER @"pdf_documents"
+#define INBOX_FOLDER @"Inbox"
